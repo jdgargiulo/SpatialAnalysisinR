@@ -105,7 +105,7 @@ plot(st_geometry(homicide))
 
 ```
 ```{r}
-# Points by themselves are not very easy to understand. Let's layer them on top of the tract polygons with add = TRUE
+# Points by themselves are not very easy to understand. Let's layer them on top of the tract polygons with add = TRUE ()
 plot(pt_geo)
 plot(st_geometry(fraud), col = "blue", alpha = 0.1, add = TRUE)
 plot(st_geometry(homicide), col = "red", add = TRUE)
